@@ -80,7 +80,7 @@ public class Prova {
                     } catch (NumberFormatException e) {
                         System.out.println("Errore: in questo campo è necessario inserire solo numeri.");
                     }catch (IllegalArgumentException e) {
-                        System.out.println("Errore! Necessario compilare campo Periodicità");
+                        System.out.println("Verificare campo Periodicità, se compilato ISBN già presente");
                     }
                 }
 
